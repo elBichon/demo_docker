@@ -1,0 +1,11 @@
+<div class="container">
+	
+	<h2>{{name}}</h2>
+	<img src={{img}}>
+</div>
+<div>
+<p>Opposants</p>
+	{% for row in enemies %}
+		<img src={{row}}>
+	{% endfor %}
+</div>
